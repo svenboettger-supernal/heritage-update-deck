@@ -151,6 +151,14 @@
   .mcard .when { display: inline-block; margin-top: 1rem; font-size: 12.5px; font-weight: 600; color: var(--action); background: var(--action-subtle); border-radius: 9999px; padding: 0.22rem 0.75rem; }
   .mcard.b .when { color: var(--terracotta); background: hsl(9 30% 93%); }
 
+  /* order-form anchors */
+  .ofq { margin-top: 0.9rem; }
+  .ofnote { border: 1px solid var(--border); border-left: 3px solid var(--border-strong); border-radius: 0 0.5rem 0.5rem 0; background: var(--card); padding: 0.85rem 1.05rem 0.95rem; }
+  .ofnote .oflabel { display: block; font-family: 'JetBrains Mono', ui-monospace, monospace; font-size: 10.5px; letter-spacing: 0.04em; text-transform: uppercase; color: var(--muted-fg); margin-bottom: 0.45rem; }
+  .ofnote .ofquote { font-family: 'Lora', Georgia, serif; font-size: 15px; line-height: 1.45; color: var(--fg); margin: 0; }
+  .ofnote .ofcite { display: block; font-size: 12px; color: var(--muted-fg); margin-top: 0.5rem; }
+  .ofcaption { font-size: 13px; color: var(--muted-fg); line-height: 1.5; margin-top: 0.85rem; }
+
   /* timeline */
   .tl { position: relative; margin-top: 2rem; padding-top: 1.6rem; }
   .tl-track { position: absolute; left: 0; right: 0; top: 1.65rem; height: 3px; background: var(--border); border-radius: 2px; }
@@ -343,6 +351,19 @@
           <span class="when">Target &middot; Nov 30</span>
         </div>
       </div>
+      <div class="grid g2 ofq">
+        <div class="ofnote">
+          <span class="oflabel">Order Form &middot; closest language</span>
+          <p class="ofquote">&ldquo;Pilot Program: firm onboarding, success tracking &amp; rollout preparation.&rdquo;</p>
+          <span class="ofcite">Project Plan, Deliverable #42 &middot; Medium, 2 pts</span>
+        </div>
+        <div class="ofnote">
+          <span class="oflabel">Order Form &middot; closest language</span>
+          <p class="ofquote">&ldquo;One (1) Heritage Distribution Firm and one hundred (100) Heritage Partnership Firms in aggregate.&rdquo;</p>
+          <span class="ofcite">Section 5 &middot; Sublicensee Cap</span>
+        </div>
+      </div>
+      <p class="ofcaption">The Order Form measures delivery in Deliverables, points and firms, not books. &ldquo;Books&rdquo; is our delivery shorthand for the same milestones. These are the closest contractual anchors.</p>
     </div>
   </section>
 
